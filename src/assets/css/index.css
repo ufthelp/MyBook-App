@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: lightblue;
+}
+main{
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+}
+#left-nav{
+  width:20%;
+  background: lightgray;
+  padding: 10px;
+}
+#book-cta{
+  text-align: center;
+  width:40%;
+  height: 200px;
+}
+input{
+  width:200px;
+  height: 20px;
+}
+ul,.thumbnail,#book-cta{
+  padding: 0 20px 0 20px;
+}
+li{
+  list-style: none;
+  text-align: left;
+  border-bottom: 1px solid grey;
+}
+li:last-child{
+  border: none;
+}
+.action-label{
+  text-decoration: underline;
+  color:grey;
+  cursor: pointer;
+}
+.thumbnail{
+  padding-top: 20px;
+}
+.book-info{
+  display: flex;
+  background: white;
+  text-align: left;
+  padding: 20px;
+  margin-bottom: 20px;
+  height: 300px;
+}
+.book-details {
+    height: 294px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    flex-direction: column;
+}
+.book-desc {
+    overflow: hidden;
+    flex-grow: 1;
+}

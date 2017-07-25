@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the App rendering and Snapshot Test App Snapshot 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+    <h2>
+      Welcome to My Book App
+    </h2>
+  </div>
+  <main>
+    <div
+      id="left-nav"
+    >
+      <input
+        onChange={[Function]}
+        placeholder="Find a book"
+        type="text"
+      />
+      
+    </div>
+    <div
+      id="book-cta"
+    >
+      <h2>
+        No Books Added
+          
+      </h2>
+    </div>
+  </main>
+</div>
+`;
